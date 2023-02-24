@@ -1,4 +1,4 @@
-const Map<String, String> en_US = {
+const Map<String, String> fr_FR = {
     ///
     /// Common
     ///
