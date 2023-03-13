@@ -6,6 +6,8 @@ There are translations files for each language that you can edit. You can find t
 
 Make sure to add your translation between the two empty quotations marks. You can see an example of this by looking at the initial English translations.
 
+After fork, it is highly recommended to create a new branch for translation work. For example, create a 'add fr_FR' branch based on the main branch to start the French translation work for France.
+
 When you're happy with your changes, open a pull request so they can be added. Please open pull requests often, so other people can see what has been done already! Don't forget to include your name / username that you want to have added to the contributors.md file. The people in this file will be added to the list of contributors that will be available in the app!
 
 ## Comments
