@@ -2,6 +2,7 @@ const Map<String, String> en_US = {
     ///
     /// Common
     ///
+    "title_inmotion": "INMOTION",
     "prompt_welcome_to_inmotion": "Hi, \nWelcome to INMOTION",
     "btn_more": "More",
     "btn_view_more": "View More",
@@ -18,6 +19,7 @@ const Map<String, String> en_US = {
     "btn_edit": "Edit",
     "btn_preview": "Preview",
     "btn_rename": "Rename",
+    "btn_copy": "Copy",
     "btn_delete": "Delete",
     "btn_publish": "Publish",
     "tab_vehicle": "Vehicle",
@@ -29,6 +31,7 @@ const Map<String, String> en_US = {
     "btn_report": "Report",
     "btn_enable": "Enable",
     "btn_enabled": "Enabled",
+    "btn_go_to_enable": "Go to enable",
     "btn_retry": "Retry",
     "prompt_title_warning": "Warning",
     "prompt_title_tips": "Notice",
@@ -37,6 +40,7 @@ const Map<String, String> en_US = {
     "prompt_failed": "Failed",
     "btn_agree": "Approve",
     'btn_reject': 'Reject',
+    'btn_arrow': 'Allow',
     "btn_need_help": "Need Help?",
     "btn_common_problem": "FAQ",
     "page_message_center": "Message Center",
@@ -53,12 +57,25 @@ const Map<String, String> en_US = {
     "prompt_copied": "Copied",
     "prompt_action_failed": "Failed",
     "prompt_press_again_to_exit": "Press again to exit.",
+    "prompt_description": "Description",
 
     "datetime_just_now": "Just now",
     "datetime_x_minutes_ago": "%smin ago",
     "datetime_yesterday_x": "Yesterday %s",
 
     "unknown": "Unknown",
+
+    "prompt_location_settings_tips": 'Please allow INMOTION to access location in Phone Settings-Applications-INMOTION-Permissions to search vehicles.',
+    "prompt_bluetooth_settings_tips": 'Please allow INMOTION to access nearby devices in Phone Settings-Applications-INMOTION-Permissions to use the functions of searching and connecting vehicles normally.',
+    "prompt_camera_settings_tips": 'Please allow INMOTION to access the camera in Phone Settings-Applications-INMOTION-Permissions to use functions such as taking pictures and scanning QR codes.',
+    "prompt_microphone_settings_tips": 'Please allow INMOTION to access the microphone in Phone Settings-Applications-INMOTION-Permissions to use functions such as audio DIY.',
+    "prompt_storage_settings_tips": 'Please allow INMOTION to access files and media in Phone Settings-Applications-INMOTION-Permissions, so that functions such as uploading avatars and saving pictures to mobile phones can be used normally.',
+
+    "prompt_location_settings_desc": 'INMOTION needs location permission to use the search vehicle.',
+    "prompt_bluetooth_settings_desc": 'INMOTION needs Access Nearby Devices permission to search and connect vehicles.',
+    "prompt_camera_settings_desc": 'INMOTION needs camera permission to take pictures and scan QR codes.',
+    "prompt_microphone_settings_desc": 'INMOTION needs microphone permission DIY audio.',
+    "prompt_storage_settings_desc": 'INMOTION needs files and media permissions to upload avatars and save pictures to the phone.',
 
     ///
     /// Account
@@ -88,6 +105,8 @@ const Map<String, String> en_US = {
     "btn_resend": "Resend",
     "title_user_agreement": "User Agreement",
     "title_privacy_policy": "Privacy Policy",
+    "title_user_agreement_and_privacy_policy": "INMOTION\nUser Agreement and Privacy Policy",
+    "title_user_agreement_and_privacy_policy_tips": "We attach great importance to the protection of your personal information and privacy. In order to better protect your rights, Please read carefully and accept the %s and %s to start using INMOTION APP.",
     "prompt_register_agreement_tips": "Sign up or login means you agreed to %s and %s",
     "title_select_country_or_region": "Select Country/Region",
     "btn_modify_phone": "Modify Phone Number",
@@ -114,7 +133,10 @@ const Map<String, String> en_US = {
     "prompt_operation_verification_tips": "The current operation requires verification, please verify by any of the following methods",
     "title_verify_operation_via": "Verify via %s",
     "prompt_operation_verification_expired": "Please perform security verification first!",
-    "text_none": "无",
+    "text_none": "None",
+    "title_account_cancellation": "Account Cancellation",
+    "prompt_account_cancellation_details": "The INMOTION account becomes unrecoverable after you close the close. We recommend you to back up the information and data related to your account.  Please remember: If you close your INMOTION account, you will no longer be able to use this account or retrieve your verified products or other information (even if you register and use INMOTION again with the same phone number or email account), including but not limited to:\n(1) The products authenticated by your INMOTION account will be automatically unbound, and other users can directly authenticate after connecting these products;\n(2) You won’t be able to retrieve the updates, likes and comments you’ve shared on your INMOTION account;\n(3) The LE coin in your INMOTION account and the virtual items exchanged with Le coin(such as atmosphere light effect packs) will not be retrieved;\n(4) Please note that the cancellation of your INMOTION account does not mean that the account activities and related responsibilities before the cancellation of this account will be exempted or mitigated.",
+    "prompt_account_cancellation_apply_success": "The application has been submitted successfully, and we will process your cancellation request as soon as possible.",
 
     /// Chinese phone quick verify error
     "prompt_cn_phone_auth_no_sim_card": "No SIM card detected!",
@@ -126,6 +148,7 @@ const Map<String, String> en_US = {
     /// Vehicle
     ///
     "btn_search_vehicle": "Search Vehicle",
+    "prompt_canceled": "Canceled",
     "prompt_had_connected_before": "Connected before",
     "title_vehicle_activation": "Activation",
     "prompt_wait_for_activation_tips_finished": "Please read/watch the safety reminders.",
@@ -153,6 +176,7 @@ const Map<String, String> en_US = {
     "prompt_connection_timeout": "Connection timeout",
     "prompt_connection_failed": "Connect failed",
     "prompt_unsupported_models": "Unsupported product model",
+    "prompt_Initialization_data_exception": "Initialization data exception, error code: %s",
     "btn_enable_bluetooth": "Open Phone Bluetooth",
     "btn_enable_location": "Enable location service",
     "btn_request_bluetooth_permission": "Request bluetooth permission",
@@ -168,31 +192,51 @@ const Map<String, String> en_US = {
     "prompt_connect_failed_unknown_sn": "You can not use INMOTION App because the SN of current vehicle is invalid.\nPlease contact us for more information.",
     "prompt_connect_failed_vehicle_locked": "The vehicle is in LOST MODE. Please contact us for more information.",
     "prompt_connect_failed_vehicle_lost_mode": "The vehicle is in LOST MODE. You can disable it in 'Me-Find My vehicle' if you are the owner of the vehicle.",
-
+    "prompt_connect_failed_area_not_available": "You cannot use this car in current area.",
     "text_vehicle_ride_time": "Ride Time",
+    "text_vehicle_power_on_time": "Power On Time",
     "text_vehicle_ride_mileage": "Ride Mileage",
     "text_vehicle_max_speed": "Max. Speed",
     "text_vehicle_ave_speed": "Ave. Speed",
+    "text_vehicle_last_ave_speed": "Last Ave. Speed",
     "text_vehicle_total_mileage": "Total Mileage",
+    "text_vehicle_subtotal_mileage": "Subtotal Mileage",
     "text_vehicle_dynamic_speed_limit": "Dynamic Speed Limit",
-    "text_vehicle_power": "Power",
+    "text_vehicle_realtime_power": "Power",
     "text_vehicle_max_power": "Max. Power",
+    "text_vehicle_ave_power": "Ave. Power",
     "text_vehicle_mos_temp": "MOS Temp",
+    "text_vehicle_current": "Current",
+    "text_vehicle_voltage": "Voltage",
     "text_vehicle_consumption": "Consumption",
+    "text_vehicle_recovery": "Recovery",
     "text_vehicle_last_ride_mileage": "Last Mileage",
     "text_vehicle_last_ride_time": "Last Ride Time",
     "text_vehicle_last_max_speed": "Last Max. Speed",
-    "text_vehicle_speed": "Speed",
+    "text_vehicle_realtime_speed": "Speed",
     "text_vehicle_battery_discharge_current": "Battery Discharge Current",
     "text_vehicle_battery_voltage": "Battery Voltage",
     "text_vehicle_battery_output_power": "Battery Discharge Power",
     "text_vehicle_motor_output_power": "Motor Output Power",
-    "text_vehicle__motor_torque": "Torque",
+    "text_vehicle_motor_torque": "Torque",
     "text_vehicle_remaining_battery": "Remain Battery",
     "text_vehicle_output_rate": "Output vector voltage(%)",
     "text_vehicle_dynamic_current_limit": "Dynamic Over-Current Limit",
 
+    "prompt_long_press_to_edit": "Long press to edit",
+    "prompt_double_click_to_reset": "Double click to reset subtotal mileage",
+    "prompt_confirm_to_reset_subtotal_mileage": "Do you confirm to reset the subtotal mileage?",
+
+    "text_vehicle_speed": "Speed",
+    "text_vehicle_mileage": "Mileage",
+    "text_vehicle_power": "Power",
+    "text_vehicle_time": "Time",
+    "text_vehicle_tempture": "Tempture",
+    "text_vehicle_other": "Other",
+
     "text_vehicle_motor_temp": "Motor Temp",
+    "text_vehicle_front_motor_temp": "Front Motor Temp",
+    "text_vehicle_rear_motor_temp": "Rear Motor Temp",
     "text_vehicle_battery_temp": "Battery Temp",
     "text_vehicle_motherboard_high_temp": "Driver Board Temp",
     "text_vehicle_driver_board_cpu_temp": "Driver Board CPU Temp",
@@ -292,9 +336,10 @@ const Map<String, String> en_US = {
     "vehicle_setting_item_drive_mode_off_road_tips": "High level of pedal hardness to handle hard acceleration, hills climbing, and off-road riding",
     "vehicle_setting_item_pedestrian_mode_limit_speed": "Max. Speed(Pedestrian mode)",
     "vehicle_setting_item_pedal_sensitivity": "Pedal Hardness",
-    "vehicle_setting_item_spilt_mode": "Spilt MOde",
+    "vehicle_setting_item_spilt_mode": "Spilt Mode",
     "vehicle_setting_item_spilt_mode_speeding": "Speeding",
     "vehicle_setting_item_spilt_mode_breaking": "Braking",
+    "vehicle_setting_item_electronic_brake_force": "Brake Force",
     "vehicle_setting_item_power_assist": "Power Assist",
     "vehicle_setting_item_acc_assist": "Accelerate Assist",
     "vehicle_setting_item_brake_assist": "Brake Assist",
@@ -343,6 +388,15 @@ const Map<String, String> en_US = {
     "vehicle_setting_item_auto_screen_off": "Auto Screen Off",
     "vehicle_setting_item_speed_unit": "Metric/Imperial Units",
     "vehicle_setting_item_sn": "SN",
+    "vehicle_setting_item_acc_force": "Acc. Force",
+    "title_vehicle_acc_front_force": "Front Acc. Force",
+    "title_vehicle_acc_rear_force": "Rear Acc. Force",
+    "vehicle_setting_item_brake_force": "Brake Force",
+    "title_vehicle_brake_front_force": "Front Brake Force",
+    "title_vehicle_brake_rear_force": "Rear Brake Force",
+    "vehicle_setting_item_one_pedal_mode": "One-Pedal Mode",
+    "vehicle_setting_item_brake_first": "Brake First",
+    "vehicle_setting_item_auto_park_time": "Auto Park Time",
     "vehicle_setting_item_activate_date": "Activated At",
     "vehicle_setting_item_total_mileage": "Total Mileage",
     "vehicle_setting_item_hmic_board_version": "HMIC Board",
@@ -355,6 +409,7 @@ const Map<String, String> en_US = {
     "vehicle_setting_riding_mode_normal": "D",
     "vehicle_setting_riding_mode_sport": "S",
     "vehicle_setting_riding_mode_sport_tips": "Recommendation to professional riders, more responsive power",
+    "vehicle_setting_riding_mode_extreme": "X",
     "vehicle_setting_riding_pedestrian_mode": "Pedestrian Mode",
     "vehicle_setting_riding_pedestrian_mode_tips": "Easier to push the scooter.",
     "vehicle_setting_item_riding_mode_euc_normal": "Normal",
@@ -365,12 +420,10 @@ const Map<String, String> en_US = {
     "prompt_cannt_enable_limit_speed_25kmph_when_sport_mode_enabled": "You couldn't enable the 'Speed Clamp at 25km/h' on 'S' mode.",
     "vehicle_setting_item_berm_angle_mode": "Berm Angle Mode",
     "prompt_unlock_factory_safe_speed_limit": "For your safety, the max. speed limit can only be raised to 90km/h when your total mileage exceed 30km. %s",
-    "prompt_unlock_factory_safe_speed_limit_not_now":
-    "For your safety, the max. speed limit can only be raised to 90km/h when your total mileage exceed 30km. You still need to continue riding for %s.",
+    "prompt_unlock_factory_safe_speed_limit_not_now": "For your safety, the max. speed limit can only be raised to 90km/h when your total mileage exceed 30km. You still need to continue riding for %s.",
     "prompt_unlock_now": "Unlock Now>>",
 
-    "warning_unlock_v13_factory_speed_limit":
-    "Your safety and security is our top priority. To better protect your personal rights and interests, please understand and read this Statement carefully to ensure that you fully understand the content of this Statement.\n\n1. You acknowledge and understand that you are currently attempting to unlock the maximum speed limit of the wheel. After this restriction is lifted, you will be able to adjust the maximum speed limit to 90km/h.\n2. You understand and are aware of the risks associated with ultra-high speed riding and shall be liable for any loss of, or damage and risk caused by the high speed.\n3. You are obligated to be aware of all laws and regulations regarding the riding of electric unicycles in your area, and strictly comply with applicable laws, regulations and policies when riding V13. Do not ride V13 in areas prohibited by local law.\n4. Please do not allow anyone who has not read the instructions carefully or is not familiar with V13 riding safety precautions to ride your vehicle.\n5. Before each ride, please be sure to check whether the products and accessories are in good condition, avoid using non-original batteries and accessories, and do not disassemble, crack or modify the products and accessories without permission. You shall be liable for any loss of, or damage and risk caused by wrong operation.\n\nPlease read carefully and choose to accept or not accept this statement. You cannot unlock the maximum speed limit until you agree to this statement. Your \"Agree\" will be deemed as acceptance of this disclaimer. If you have any questions about this disclaimer, please click \"Cancel\"",
+    "warning_unlock_v13_factory_speed_limit": "Your safety and security is our top priority. To better protect your personal rights and interests, please understand and read this Statement carefully to ensure that you fully understand the content of this Statement.\n\n1. You acknowledge and understand that you are currently attempting to unlock the maximum speed limit of the wheel. After this restriction is lifted, you will be able to adjust the maximum speed limit to 90km/h.\n2. You understand and are aware of the risks associated with ultra-high speed riding and shall be liable for any loss of, or damage and risk caused by the high speed.\n3. You are obligated to be aware of all laws and regulations regarding the riding of electric unicycles in your area, and strictly comply with applicable laws, regulations and policies when riding V13. Do not ride V13 in areas prohibited by local law.\n4. Please do not allow anyone who has not read the instructions carefully or is not familiar with V13 riding safety precautions to ride your vehicle.\n5. Before each ride, please be sure to check whether the products and accessories are in good condition, avoid using non-original batteries and accessories, and do not disassemble, crack or modify the products and accessories without permission. You shall be liable for any loss of, or damage and risk caused by wrong operation.\n\nPlease read carefully and choose to accept or not accept this statement. You cannot unlock the maximum speed limit until you agree to this statement. Your \"Agree\" will be deemed as acceptance of this disclaimer. If you have any questions about this disclaimer, please click \"Cancel\"",
     "warning_enable_berm_angle_mode": "When this mode is enabled, the angle of vehicle rollover protection will become larger, which means the vehicle may swing back and forth and easily be out of control due to small changes on the balance angle when it is positioned sideways. This may harm you or the surroundings. You’ve already known all possible risks, are you sure you want to enable it?",
     "warning_disable_berm_angle_mode": "To activate, press the Spin-Kill button after the mode is on/off. ",
 
@@ -445,8 +498,8 @@ const Map<String, String> en_US = {
 
     /// V12 Light Effect
     "text_light_effect_mode_close": "Disable",
-    "text_light_effect_mode_audio_package": "Audio Pack",
-    "text_light_effect_mode_audio_package_change": "Modify Audio Pack",
+    "text_light_effect_mode_light_package": "Light Effect",
+    "text_light_effect_mode_light_package_change": "Modify Light Effect",
     "text_light_effect_mode_follow_music": "Follow Music",
     "text_light_effect_mode_follow_speed": "Follow Speed",
     "text_light_effect_mode_follow_speed_1": "Water Flow",
@@ -461,6 +514,12 @@ const Map<String, String> en_US = {
     "title_view_history": "View History",
     "title_vehicle_upload_log": "Upload Log",
     "prompt_upload_log_tips": "It may take a few minutes to upload log, please be patient",
+    "title_upload_euc_log": "Upload EUC Log",
+    "title_upload_bms_log": "Upload BMS Log",
+    "title_uploading_euc_log": "Uploading EUC Log",
+    "title_uploading": "Uploading %s",
+    "title_upload_euc_and_bms_log": "Upload EUC and BMS Log",
+    "title_upload_bms_log_tips": "It's not necessary to upload BMS logs if the wheel doesn't report battery-related warnings/errors, unless specifically requested by the INMOTION team.",
 
     /// Remote Diagnosis
     "title_remote_diagnosis": "Remote Diagnosis",
@@ -471,7 +530,9 @@ const Map<String, String> en_US = {
     "prompt_remote_diagnosis_waiting_remote_connection": "You are currently in the online diagnostic mode! Please waiting for remote device access.",
     "prompt_remote_diagnosis_confirm_to_cancel": "Currently you are waiting for the remote device to access, are you sure to exit?",
     "prompt_remote_diagnosis_waiting_remote_timeout": "Access failed, waiting for remote device access is timeout.",
+    "prompt_remote_diagnosis_enter_again": "Enter again",
     "prompt_remote_diagnosis_in_progress": "Online diagnosis is in progress. Please make sure your mobile phone is near the vehicle and the network is active. Please do not turn off the screen of the mobile phone.",
+    "prompt_remote_diagnosis_connect_identifier": "Bind code is [%s], click to copy to clipboard. Please send this code to INMOTION to start diagnosing.",
 
     "prompt_upload_log_success": "Log upload successfully!",
     "prompt_upload_log_failed": "Log upload failed!",
@@ -573,10 +634,11 @@ const Map<String, String> en_US = {
     "vehicle_warning_battery_calibration": "Battery voltage calibration abnormal warning. Please %s.",
     "text_calibrate_battery": "calibrate battery voltage",
     "vehicle_warning_some_batteries_not_enabled": "Warning by some batteries not work. It will affect the performance of vehicle. Please ride carefully.",
-    "vehicle_warning_danger_charge1_dual_charger": "Warning: The voltages of the left and right battery packs are different, inappropriate charging may cause safety issues. What you should do: ①Only use one original charger to charge up the wheel, two chargers to charge the wheel at the same time is not allowed ②Place the wheel within you sight, don't leave the wheel alone, observe the charging process closely. %s",
-    "vehicle_warning_danger_charge1_single_charger": "Warning: The voltages of the left and right battery packs are different, inappropriate charging may cause safety issues. What you should do: Place the wheel within you sight, don't leave the wheel alone, observe the charging process closely. %s",
-    "vehicle_warning_danger_charge2": "Danger! Stop Charging! Battery error, please stop charging and remove your charger immediately, put your wheel at a safe place. Please upload the vehicle log (Vehicle Settings - Diagnose- Upload log ), contact your dealer for service. %s",
+    "vehicle_warning_danger_charge1_dual_charger": "Warning: The voltages of the left and right battery packs are different, inappropriate charging may cause safety issues. \nWhat you should do: \n①Only use one original charger to charge up the wheel, two chargers to charge the wheel at the same time is not allowed \n②Place the wheel within you sight, don't leave the wheel alone, observe the charging process closely. %s",
+    "vehicle_warning_danger_charge1_single_charger": "Warning: The voltages of the left and right battery packs are different, inappropriate charging may cause safety issues. \nWhat you should do: \nPlace the wheel within you sight, don't leave the wheel alone, observe the charging process closely. %s",
+    "vehicle_warning_danger_charge2": "Danger! Stop Charging! \nBattery error, please stop charging and remove your charger immediately, put your wheel at a safe place. \nPlease upload the vehicle log (Vehicle Settings - Diagnose- Upload log ), contact your dealer for service. %s",
     "btn_i_know_danger_charge_risk_and_turn_off_alert": "I Know That Risk and Turn Off This Warning Alert",
+    "btn_i_know_danger_charge_risk": "I Know That Risk",
     "vehicle_warning_battery_over_voltage": "High voltage of battery, you may need to replace the battery or the charger.",
     "vehicle_warning_battery_output_abnormal": "Battery no output power, please try to recharge or you may need to replace the battery.",
     "vehicle_warning_too_low_battery": "Warning by the too-low voltage, please recharge as soon as possible to avoid damaging to battery.",
@@ -744,7 +806,7 @@ const Map<String, String> en_US = {
 
     'title_message_center': 'Message Center',
     'title_user_info': 'Personal Information',
-    'btn_take_a_photo': 'Take a phone',
+    'btn_take_a_photo': 'Take a photo',
     'btn_select_from_album': 'Select from album',
 
     'title_scan_qrcode': 'Scan QR Code',
@@ -757,8 +819,10 @@ const Map<String, String> en_US = {
     /// personal info
     'title_avatar': 'Avatar',
     'title_nickname': 'Nickname',
+    'title_username': 'Username',
     'title_signature': 'Signature',
     'title_modify_nickname': 'Modify nickname',
+    'title_modify_username': 'Modify username',
     'title_modify_signature': 'Modify signature',
     'prompt_nickname_limit': '6-20 characters',
     'prompt_signature_limit': '0-100 characters',
@@ -830,7 +894,7 @@ const Map<String, String> en_US = {
     "title_official_recommends": "Recommend",
 
     /// riding record
-    "text_riding_record_summary": "In total, %shours, %sKg of carbon emissions saved.",
+    "text_riding_record_summary": "In total, %shours, %s of carbon emissions saved.",
 
     ///
     /// errors
