@@ -2402,11 +2402,11 @@
         </tr>
         <tr>
           <td id="L217" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="217"></td>
-          <td id="LC217" class="blob-code blob-code-inner js-file-line">    <span class="pl-s">&quot;text_vehicle_battery_discharge_current&quot;</span><span class="pl-k">:</span> <span class="pl-s">&quot;Corriente de salida de la batería&quot;</span>,</td>
+          <td id="LC217" class="blob-code blob-code-inner js-file-line">    <span class="pl-s">&quot;text_vehicle_battery_discharge_current&quot;</span><span class="pl-k">:</span> <span class="pl-s">&quot;Corriente de descarga de la batería&quot;</span>,</td>
         </tr>
         <tr>
           <td id="L218" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="218"></td>
-          <td id="LC218" class="blob-code blob-code-inner js-file-line">    <span class="pl-s">&quot;text_vehicle_battery_voltage&quot;</span><span class="pl-k">:</span> <span class="pl-s">&quot;Tensión de salida de la batería&quot;</span>,</td>
+          <td id="LC218" class="blob-code blob-code-inner js-file-line">    <span class="pl-s">&quot;text_vehicle_battery_voltage&quot;</span><span class="pl-k">:</span> <span class="pl-s">&quot;Tensión de la batería&quot;</span>,</td>
         </tr>
         <tr>
           <td id="L219" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="219"></td>
@@ -2468,7 +2468,7 @@
         </tr>
         <tr>
           <td id="L233" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="233"></td>
-          <td id="LC233" class="blob-code blob-code-inner js-file-line">    <span class="pl-s">&quot;text_vehicle_time&quot;</span><span class="pl-k">:</span> <span class="pl-s">&quot;Hora&quot;</span>,</td>
+          <td id="LC233" class="blob-code blob-code-inner js-file-line">    <span class="pl-s">&quot;text_vehicle_time&quot;</span><span class="pl-k">:</span> <span class="pl-s">&quot;Duración&quot;</span>,</td>
         </tr>
         <tr>
           <td id="L234" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="234"></td>
@@ -4886,7 +4886,7 @@
         </tr>
         <tr>
           <td id="L826" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="826"></td>
-          <td id="LC826" class="blob-code blob-code-inner js-file-line">    <span class="pl-s">&#39;title_modify_signature&#39;</span><span class="pl-k">:</span> <span class="pl-s">&#39;Modificar clave personal&#39;</span>,</td>
+          <td id="LC826" class="blob-code blob-code-inner js-file-line">    <span class="pl-s">&#39;title_modify_signature&#39;</span><span class="pl-k">:</span> <span class="pl-s">&#39;Modificar Alias Personal&#39;</span>,</td>
         </tr>
         <tr>
           <td id="L827" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="827"></td>
