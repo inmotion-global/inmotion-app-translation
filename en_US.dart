@@ -224,7 +224,7 @@ const Map<String, String> en_US = {
     "text_vehicle_dynamic_current_limit": "Dynamic Over-Current Limit",
 
     "prompt_long_press_to_edit": "Long press to edit",
-    "prompt_double_click_to_reset": "The manual odometer can be reset to accumulate mileage from a specific location or measure distances even among rides. Double clic to reset the Manual ODO.",
+    "prompt_double_click_to_reset": "The manual odometer can be reset to accumulate mileage from a specific location or to measure distance even among rides. Double clic to reset the Manual ODO.",
     "prompt_confirm_to_reset_subtotal_mileage": "Do you confirm to reset the manual odometer?",
 
     "text_vehicle_speed": "Speed",
