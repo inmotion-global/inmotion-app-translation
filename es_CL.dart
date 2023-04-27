@@ -224,7 +224,7 @@ const Map<String, String> es_CL = {
     "text_vehicle_dynamic_current_limit": "Límite de corriente dinámica",
 
     "prompt_long_press_to_edit": "Presionar largo para editar",
-    "prompt_double_click_to_reset": "Hacer doble clic para reiniciar el odómetro manual",
+    "prompt_double_click_to_reset": "El odómetro manual puede ser reiniciado para acumular distancia desde una posición o medir distancias incluso entre viajes. Hacer doble clic para reinciar el ODO Manual.",
     "prompt_confirm_to_reset_subtotal_mileage": "Confirma reiniciar el odómetro manual?",
 
     "text_vehicle_speed": "Velocidad",
