@@ -200,7 +200,7 @@ const Map<String, String> es_CL = {
     "text_vehicle_ave_speed": "Vel. Promedio",
     "text_vehicle_last_ave_speed": "Vel. Promedio Previa",
     "text_vehicle_total_mileage": "Kilometraje Total",
-    "text_vehicle_subtotal_mileage": "Kilometraje Subtotal",
+    "text_vehicle_subtotal_mileage": "ODO Manual",
     "text_vehicle_dynamic_speed_limit": "Límite de Vel. Dinámica",
     "text_vehicle_realtime_power": "Potencia",
     "text_vehicle_max_power": "Potencia Máx.",
@@ -224,8 +224,8 @@ const Map<String, String> es_CL = {
     "text_vehicle_dynamic_current_limit": "Límite de corriente dinámica",
 
     "prompt_long_press_to_edit": "Presionar largo para editar",
-    "prompt_double_click_to_reset": "Hacer doble clic para reiniciar el kilometraje subtotal",
-    "prompt_confirm_to_reset_subtotal_mileage": "Confirma reiniciar el kilometraje subtotal?",
+    "prompt_double_click_to_reset": "Hacer doble clic para reiniciar el odómetro manual",
+    "prompt_confirm_to_reset_subtotal_mileage": "Confirma reiniciar el odómetro manual?",
 
     "text_vehicle_speed": "Velocidad",
     "text_vehicle_mileage": "Kilometraje",
