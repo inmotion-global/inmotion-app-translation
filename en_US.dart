@@ -200,7 +200,7 @@ const Map<String, String> en_US = {
     "text_vehicle_ave_speed": "Ave. Speed",
     "text_vehicle_last_ave_speed": "Last Ave. Speed",
     "text_vehicle_total_mileage": "Total Mileage",
-    "text_vehicle_subtotal_mileage": "Subtotal Mileage",
+    "text_vehicle_subtotal_mileage": "Manual ODO",
     "text_vehicle_dynamic_speed_limit": "Dynamic Speed Limit",
     "text_vehicle_realtime_power": "Power",
     "text_vehicle_max_power": "Max. Power",
@@ -224,8 +224,8 @@ const Map<String, String> en_US = {
     "text_vehicle_dynamic_current_limit": "Dynamic Over-Current Limit",
 
     "prompt_long_press_to_edit": "Long press to edit",
-    "prompt_double_click_to_reset": "Double click to reset subtotal mileage",
-    "prompt_confirm_to_reset_subtotal_mileage": "Do you confirm to reset the subtotal mileage?",
+    "prompt_double_click_to_reset": "The manual odometer can be reset to accumulate mileage from a specific location or to measure distance even among rides. Double click to reset the Manual ODO.",
+    "prompt_confirm_to_reset_subtotal_mileage": "Do you confirm to reset the manual odometer?",
 
     "text_vehicle_speed": "Speed",
     "text_vehicle_mileage": "Mileage",
