@@ -105,8 +105,8 @@ const Map<String, String> uk_UA = {
     "btn_resend": " Надіслати повторно",
     "title_user_agreement": "Угодою користувача", //
     "title_privacy_policy": "Політикою конфіденційності", //
-    "title_user_agreement_and_privacy_policy": "INMOTION\nUser Agreement and Privacy Policy",
-    "title_user_agreement_and_privacy_policy_tips": "We attach great importance to the protection of your personal information and privacy. In order to better protect your rights, Please read carefully and accept the %s and %s to start using INMOTION APP.",
+    "title_user_agreement_and_privacy_policy": "INMOTION\nУгода користувача та Політика конфіденційності",
+    "title_user_agreement_and_privacy_policy_tips": "Ми надаємо велике значення захисту Вашої особистої інформації та конфіденційності. Щоб краще захистити свої права, будь ласка, уважно прочитайте та прийміть %s і %s, щоб почати використовувати додаток INMOTION.",
     "prompt_register_agreement_tips": "Реєстрація або вхід означає, що Ви погодилися з \n%s та %s",
     "title_select_country_or_region": "Виберіть країну/регіон",
     "btn_modify_phone": "Змінити номер телефону",
@@ -138,7 +138,6 @@ const Map<String, String> uk_UA = {
     "prompt_account_cancellation_details": "Після закриття облікового запису INMOTION його відновлення неможливе. Ми рекомендуємо вам резервувати інформацію та дані, пов'язані з вашим обліковим записом. Будь ласка, пам'ятайте: якщо Ви закриєте свій обліковий запис INMOTION, Ви більше не зможете використовувати цей обліковий запис або відновити відповідні продукти чи іншу інформацію (навіть якщо зареєструєтеся та використаєте INMOTION знову з тим же номером телефону або адресою електронної пошти), зокрема, але не виключно:\n(1) Продукти, затверджені вашим обліковим записом INMOTION, автоматично зв'язуються з іншими користувачами після підключення цих продуктів;\n(2) Ви не зможете відновити оновлення, лайки та коментарі, які Ви поділилися в своєму обліковому записі INMOTION;\n(3) LE-монети на вашому обліковому записі INMOTION та віртуальні предмети, які обмінюються за LE-монети (наприклад, пакети ефектів атмосферного світла), не будуть відновлені;\n(4) Будь ласка, зверніть увагу, що скасування вашого облікового запису INMOTION не означає, що діяльність облікового запису та пов'язані з ним відповідальності до скасування цього облікового запису будуть звільнені або зменшені.",
     "prompt_account_cancellation_apply_success": "Заявка успішно подана, і ми якнайшвидше обробимо ваш запит на видалення.",
 
-    
     /// Chinese phone quick verify error
     "prompt_cn_phone_auth_no_sim_card": "SIM-картка не знайдена!",
     "prompt_cn_phone_auth_unknown_operator": "Невідомий оператор!",
@@ -193,6 +192,7 @@ const Map<String, String> uk_UA = {
     "prompt_connect_failed_unknown_sn": "Ви не можете використовувати додаток INMOTION, оскільки серійний номер поточного транспортного засобу недійсний.\nБудь ласка, зв'яжіться з нами для отримання додаткової інформації.",
     "prompt_connect_failed_vehicle_locked": "Транспортний засіб знаходиться у ВТРАЧЕНОМУ РЕЖИМІ. Будь ласка, зв'яжіться з нами для отримання додаткової інформації.",
     "prompt_connect_failed_vehicle_lost_mode": 'Транспортний засіб знаходиться у ВТРАЧЕНОМУ РЕЖИМІ. Ви можете вимкнути його в "Я - Знайти мій транспортний засіб", якщо Ви є власником транспортного засобу.',
+    "prompt_connect_failed_area_not_available": "Ви не можете використовувати цю транспортний засіб в поточному регіоні.",
     "text_vehicle_ride_time": "Тривалість поїздки",
     "text_vehicle_power_on_time": "Тривалість роботи", //
     "text_vehicle_ride_mileage": "Відстань поїздки",
@@ -520,7 +520,6 @@ const Map<String, String> uk_UA = {
     "title_uploading": "Вивантаження %s",
     "title_upload_euc_and_bms_log": "Вивантажити лог моноколеса та BMS",
     "title_upload_bms_log_tips": "Немає необхідності вивантажувати логи BMS, якщо колесо не повідомляє про помилки або проблеми, пов'язані з батареєю, якщо не було запиту на це команди INMOTION.",
-
 
     /// Remote Diagnosis
     "title_remote_diagnosis": "Дистанційна діагностика",
@@ -910,5 +909,3 @@ const Map<String, String> uk_UA = {
     'prompt_file_download_failed': 'Помилка завантаження файлу',
     'prompt_unknown_product_model': 'Невідома модель продукту',
 };
-
-//the author of the translation: And2Ex | Віталій Брик
