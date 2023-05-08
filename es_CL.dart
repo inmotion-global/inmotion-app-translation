@@ -514,7 +514,7 @@ const Map<String, String> es_CL = {
   "text_light_effect_mode_5": "Modo 6",
   "text_light_effect_mode_6": "Modo 7",
   "text_light_effect_mode_7": "Modo 8",
-  "title_light_effect_color": "Modo 9",
+  "title_light_effect_color": "Color",
 
   /// V12 Light Effect
   "text_light_effect_mode_close": "Desactivado",

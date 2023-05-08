@@ -450,7 +450,7 @@ const Map<String, String> ru_RU = {
   "text_light_effect_mode_5": "Режим 6",
   "text_light_effect_mode_6": "Режим 7",
   "text_light_effect_mode_7": "Режим 8",
-  "title_light_effect_color": "Режим 9",
+  "title_light_effect_color": "Цвет",
 
   /// V12 Light Effect
   "text_light_effect_mode_close": "Отключить",
