@@ -113,7 +113,7 @@ const Map<String, String> ru_RU = {
   "prompt_operation_verification_tips": "Текущая операция требует проверки, пожалуйста, подтвердите ее любым из следующих способов",
   "title_verify_operation_via": "Подтвердить через %s",
   "prompt_operation_verification_expired": "Сначала выполните проверку безопасности!",
-  "text_none": "никто",
+  "text_none": "无",
 
   /// Chinese phone quick verify error
   "prompt_cn_phone_auth_no_sim_card": "SIM-карта не обнаружена!",
@@ -207,7 +207,7 @@ const Map<String, String> ru_RU = {
   "prompt_vehicle_disconnected": "Транспорт отключен",
   "prompt_no_connected_vehicles_yet": "Подключенных устройств пока нет.",
   "prompt_current_connected_vehicle": "Подключено",
-  "prompt_last_connected_at": "Последнее подключение: %s",
+  "prompt_last_connected_at": "Последнее подключениe: %s",
   "title_switch_vehicle": "Смена транспорта",
   "btn_disconnect_and_scan": "Отключить и искать",
   "btn_scan": "Поиск",
@@ -269,8 +269,8 @@ const Map<String, String> ru_RU = {
 
   /// vehicle settings
   "title_vehicle_settings": "Настройки устройства",
-  "prompt_operation_succeed": "✓ Успех",
-  "prompt_operation_failed": "✗ Не удалось",
+  "prompt_operation_succeed": "Применено",
+  "prompt_operation_failed": "Не удалось применить",
   "title_vehicle_password": "Пароль",
   "text_vehicle_password_disabled": "Отключен",
   "text_vehicle_password_gesture": "Жест",
@@ -287,12 +287,12 @@ const Map<String, String> ru_RU = {
   "vehicle_setting_item_limit_speed_25": "Ограничение скорости на 25 км/ч",
   "vehicle_setting_item_limit_speed": "Ограничение скорости",
   "vehicle_setting_item_drive_mode": "Режим вождения",
-  "vehicle_setting_item_drive_mode_normal": "Повседневный",
+  "vehicle_setting_item_drive_mode_normal": "Комфорт",
   "vehicle_setting_item_drive_mode_normal_tips": "Мягкое и плавное ускорение и замедление",
   "vehicle_setting_item_drive_mode_off_road": "Бездорожье",
   "vehicle_setting_item_drive_mode_off_road_tips": "Высокий уровень жесткости педалей для резкого ускорения, подъема на холмы и езды по бездорожью",
   "vehicle_setting_item_pedestrian_mode_limit_speed": "Макс. Скорость (пешеходный режим)",
-  "vehicle_setting_item_pedal_sensitivity": "Отзывчивость педали",
+  "vehicle_setting_item_pedal_sensitivity": "Жесткость педали",
   "vehicle_setting_item_spilt_mode": "Регулируемый режим",
   "vehicle_setting_item_spilt_mode_speeding": "Ускорение",
   "vehicle_setting_item_spilt_mode_breaking": "Торможение",
@@ -302,7 +302,7 @@ const Map<String, String> ru_RU = {
   "vehicle_setting_item_cruise": "Круиз",
   "vehicle_setting_item_ride_assist": "Помощь при езде",
   "vehicle_setting_item_zero_start": "Нулевой старт",
-  "vehicle_setting_item_assist_balance": "Помощник баланса",
+  "vehicle_setting_item_assist_balance": "Помощник выравнивания",
   "vehicle_setting_item_load_detect": "Обнаружение нагрузки",
   "vehicle_setting_item_noload_detect": "Обнаружение холостого хода",
   "vehicle_setting_item_up_hill_assist": "Помощь на подъеме",
@@ -334,8 +334,8 @@ const Map<String, String> ru_RU = {
   "vehicle_setting_item_standby_time": "Режим ожидания",
   "vehicle_setting_item_spin_kill_btn": "Spin-Kill",
   "vehicle_setting_item_sound_wave": "Звуковая волна",
-  "vehicle_setting_item_sound_wave_sensitivity": "Чувствительность к звуковой волне",
-  "vehicle_setting_item_estimated_remainder_range": "Оценка остатка диапазона",
+  "vehicle_setting_item_sound_wave_sensitivity": "Чувствительность звуковой волны",
+  "vehicle_setting_item_estimated_remainder_range": "Оценка остатка пробега",
   "vehicle_setting_item_user_info": "Информация об устройстве",
   "vehicle_setting_item_fan_quiet_mode": "Тихий режим вентилятора охлаждения",
   "vehicle_setting_item_forced_fan": "Принудительное воздушное охлаждение",
@@ -344,7 +344,7 @@ const Map<String, String> ru_RU = {
   "vehicle_setting_item_auto_screen_off": "Автоотключение экрана",
   "vehicle_setting_item_speed_unit": "Метрические/имперские единицы",
   "vehicle_setting_item_sn": "SN",
-  "vehicle_setting_item_activate_date": "Активировано в",
+  "vehicle_setting_item_activate_date": "Дата активации",
   "vehicle_setting_item_total_mileage": "Общий пробег",
   "vehicle_setting_item_hmic_board_version": "Плата HMIC",
   "vehicle_setting_item_bt_board_version": "Плата BT",
@@ -352,10 +352,10 @@ const Map<String, String> ru_RU = {
   "vehicle_setting_item_driver_board_temp": "Температура контроллера",
   "vehicle_setting_item_riding_mode": "Режим езды",
   "vehicle_setting_riding_mode_eco": "ЭКО",
-  "vehicle_setting_riding_mode_eco_tips": "Рекомендация новичку, плавный разгон.",
+  "vehicle_setting_riding_mode_eco_tips": "Рекомендовано новичку, плавный разгон.",
   "vehicle_setting_riding_mode_normal": "D",
   "vehicle_setting_riding_mode_sport": "S",
-  "vehicle_setting_riding_mode_sport_tips": "Рекомендацио профессиональным гонщикам, более отзывчивая мощность",
+  "vehicle_setting_riding_mode_sport_tips": "Рекомендовано профессиональным гонщикам, более отзывчивая мощность",
   "vehicle_setting_riding_pedestrian_mode": "Режим пешехода",
   "vehicle_setting_riding_pedestrian_mode_tips": "Легче толкать устройство.",
   "vehicle_setting_item_riding_mode_euc_normal": "Нормальный",
@@ -368,11 +368,12 @@ const Map<String, String> ru_RU = {
   "prompt_unlock_factory_safe_speed_limit":
       "В целях вашей безопасности ограничение максимальной скорости может быть увеличено только до 90 км/ч, когда ваш общий пробег превышает 30 км. %s",
   "prompt_unlock_factory_safe_speed_limit_not_now":
-      "В целях вашей безопасности ограничение максимальной скорости может быть увеличено до 90 км/ч только в том случае, если ваш общий пробег превышает 30 км. Вам все еще нужно продолжать кататься в течение %s.",
+      "В целях вашей безопасности ограничение максимальной скорости может быть увеличено до 90 км/ч только в том случае, если ваш общий пробег превышает 30 км. Вам все еще нужно продолжать кататься в течение %s",
   "prompt_unlock_now": "Разблокировать>>",
 
   "warning_unlock_v13_factory_speed_limit":
-      "Ваша безопасность - наш главный приоритет. Чтобы лучше защитить ваши личные права и интересы, пожалуйста, поймите и внимательно прочитайте это Заявление, чтобы убедиться, что вы полностью понимаете содержание этого заявления.\n\n1. Вы признаете и понимаете, что в данный момент пытаетесь разблокировать ограничение максимальной скорости колеса. После снятия этого ограничения вы сможете установить ограничение максимальной скорости до 90 км/ч.\n2. Вы понимаете и осведомлены о рисках, связанных с ездой на сверхвысокой скорости, и несете ответственность за любые потери или повреждения и риски, вызванные высокой скоростью.\n3. Вы обязаны быть осведомлены обо всех законах и подзаконных актах, касающихся езды на маоноколеах в вашем регионе, и строго соблюдать применимые законы, нормативные акты и политику при езде на V13. Не ездите на V13 в местах, запрещенных местным законодательством.\n4. Пожалуйста, не допускайте к управлению вашим моноциклом никого, кто не прочитал внимательно инструкции или не знаком с мерами предосторожности при езде V13.\n5. Перед каждой поездкой, пожалуйста, обязательно проверяйте, находятся ли продукты и аксессуары в хорошем состоянии, избегайте использования неоригинальных батареек и аксессуаров и не разбирайте, не взламывайте и не модифицируйте продукты и аксессуары без разрешения. Вы несете ответственность за любую потерю или повреждение и риск, вызванные неправильной эксплуатацией.\n\n Пожалуйста, внимательно прочитайте и выберите, принимать или не принимать это заявление. Вы не сможете разблокировать ограничение максимальной скорости, пока не согласитесь с этим заявлением. Ваше 'Согласен' будет рассматриваться как принятие данного заявления об отказе от ответственности. Если у вас есть какие-либо вопросы по поводу этого заявления об отказе от ответственности, пожалуйста, нажмите 'Отменить'",
+      "Ваша безопасность - наш главный приоритет. Чтобы лучше защитить ваши личные права и интересы, пожалуйста, поймите и внимательно прочитайте это Заявление, чтобы убедиться, что вы полностью понимаете содержание этого заявления.\n\n1. Вы признаете и понимаете, что в данный момент пытаетесь разблокировать ограничение максимальной скорости колеса. После снятия этого ограничения вы сможете установить ограничение максимальной скорости до 90 км/ч.\n2. Вы понимаете и осведомлены о рисках, связанных с ездой на сверхвысокой скорости, и несете ответственность за любые потери или повреждения и риски, вызванные высокой скоростью.\n3. Вы обязаны быть осведомлены обо всех законах и подзаконных актах, касающихся езды на маоноколеах в вашем регионе, и строго соблюдать применимые законы, нормативные акты и политику при езде на V13. Не ездите на V13 в местах, запрещенных местным законодательством.\n4. Пожалуйста, не допускайте к управлению вашим моноциклом никого, кто не прочитал внимательно инструкции или не знаком с мерами предосторожности при езде V13.\n5. Перед каждой поездкой, пожалуйста, обязательно проверяйте, находятся ли продукты и аксессуары в хорошем состоянии, избегайте использования неоригинальных батареек и аксессуаров и не разбирайте, не взламывайте и не модифицируйте продукты и аксессуары без разрешения. Вы несете ответственность за любую потерю или повреждение и риск, вызванные неправильной эксплуатацией.\n\N Пожалуйста, внимательно прочитайте и выберите, принимать или не принимать это заявление. Вы не сможете разблокировать ограничение максимальной скорости, пока не согласитесь с этим заявлением. Ваше \"Согласен\"будет рассматриваться как принятие данного заявления об отказе от ответственности. Если у вас есть какие-либо вопросы по поводу этого заявления об отказе от ответственности, пожалуйста, нажмите \"Отменить\"",
+
   "warning_enable_berm_angle_mode":
       "Когда этот режим включен, угол защиты от опрокидывания транспортного средства становится больше, что означает, что транспортное средство может раскачиваться вперед и назад и легко терять управление из-за небольших изменений угла балансировки, когда оно расположено боком. Это может нанести вред вам или окружающим. Вы уже знаете обо всех возможных рисках, вы уверены, что хотите включить это?",
   "warning_disable_berm_angle_mode": "Для активации нажмите кнопку Spin-Kill после включения/выключения режима. ",
@@ -453,8 +454,8 @@ const Map<String, String> ru_RU = {
 
   /// V12 Light Effect
   "text_light_effect_mode_close": "Отключить",
-  "text_light_effect_mode_audio_package": "Аудиопакет",
-  "text_light_effect_mode_audio_package_change": "Изменить аудиопакет",
+  "text_light_effect_mode_light_package": "Персональный",
+  "text_light_effect_mode_light_package_change": "Изменить световой эффекта",
   "text_light_effect_mode_follow_music": "Следить за музыкой",
   "text_light_effect_mode_follow_speed": "Следить за скоростью",
   "text_light_effect_mode_follow_speed_1": "Водный поток",
@@ -463,7 +464,7 @@ const Map<String, String> ru_RU = {
   /// Diagnosis
   "title_vehicle_diagnosis": "Диагностика",
   "prompt_vehicle_diagnosis_result": "Результат диагностики",
-  "prompt_vehicle_diagnosis_ok": "Известных ошибок и предупреждений пока не обнаружено",
+  "prompt_vehicle_diagnosis_ok": "Известных ошибок и предупреждений не обнаружено",
   "prompt_vehicle_diagnosis_abnormal": "Ваше ТС находится в ненормальном состоянии",
   "title_vehicle_diagnosis_history": "История диагностики",
   "title_view_history": "Просмотр истории",
@@ -498,7 +499,7 @@ const Map<String, String> ru_RU = {
   "text_firmware_update_notes_3": "· Если обновление не удалось, попробуйте выйти из приложения и снова выполнить обновление",
   "prompt_contact_us": "Свяжитесь с нами",
   "prompt_firmware_update_learn_more_notes": "Подробнее>>",
-  "title_new_firmware_version_summary": "Рекомендовать",
+  "title_new_firmware_version_summary": "Рекомендации",
   "text_new_firmware_version_learn_more": "Подробнее>>",
   "prompt_firmware_update_success": "Обновление успешно",
   "prompt_firmware_update_failed": "Не удалось обновить!",
@@ -510,7 +511,7 @@ const Map<String, String> ru_RU = {
   "prompt_firmware_update_waiting_device": "Ожидание обновления устройства",
 
   "title_device_name_unknown": "Неизвестный",
-  "title_device_name_hmic_board": "HMIC Совет",
+  "title_device_name_hmic_board": "Плата HMIC",
   "title_device_name_driver_board": "Контроллер",
   "title_device_name_bt_board": "Плата BT",
   "title_device_name_display_board": "Табло",
@@ -550,7 +551,7 @@ const Map<String, String> ru_RU = {
   "vehicle_error_scooter_imu_sensor": "Сбой датчика IMU, возможно, вам потребуется заменить плату дисплея.",
 
   /// hmic board errors and warnings
-  "title_vehicle_diagnosis_module_hmic_board": "ГМИЦ Совет",
+  "title_vehicle_diagnosis_module_hmic_board": "Плата HMIC",
   "vehicle_error_hmic_board_rtc": "Сбой RTC, возможно, вам потребуется заменить материнскую плату.",
   "vehicle_error_hmic_board_flash": "Внешний накопитель неисправен, возможно, вам потребуется заменить основную плату.",
 
@@ -791,7 +792,7 @@ const Map<String, String> ru_RU = {
   'title_vehicle_info': 'Информация о ТС',
   'prompt_vehicle_info_updated_at': 'Информация ниже была обновлена : %s',
   'title_vehicle_model': 'Модель',
-  'title_activated_date': 'Активировано в',
+  'title_activated_date': 'Дата активации',
   'title_total_mileage': 'Общий пробег',
   'title_riding_record': 'Записи поездок',
   "title_bluetooth_name": "Имя BT",
@@ -800,7 +801,7 @@ const Map<String, String> ru_RU = {
   'title_vehicle_main_owner': 'Основной владелец',
   'btn_go_to_authorize_as_owner': 'Перейти к авторизации',
   'prompt_not_owner_and_go_to_authorize_as_owner': 'Это может сделать только владелец текущего транспортного средства, вы хотите авторизоваться как владелец сейчас?',
-  'text_vehicle_info_owner_me_suffix': '(Мне)',
+  'text_vehicle_info_owner_me_suffix': '(Я)',
   'title_vehicle_vice_owner': 'Вице-владелец',
   'title_vehicle_no_owner': 'Никто',
   'title_transfer_vehicle_main_owner': 'Передача основного владельца',
@@ -846,7 +847,7 @@ const Map<String, String> ru_RU = {
   'btn_customer_service_evaluate': 'Оценивать',
   'prompt_input_question_to_consult': 'Пожалуйста, введите вопрос, который вы хотите проконсультироваться',
 
-  "title_official_recommends": "Рекомендовать",
+  "title_official_recommends": "Рекомендации",
 
   /// riding record
   "text_riding_record_summary": "Всего сэкономлено %shours, %sKg выбросов углерода.",
