@@ -521,6 +521,8 @@ const Map<String, String> ru_RU = {
   /// Driver board failure
   "title_vehicle_diagnosis_module_driver_board": "Контроллер",
   "vehicle_error_parse_current_sensor": "Датчик фазного тока неисправен, возможно, потребуется заменить контроллер.",
+  "vehicle_error_driver_board_front_current_sensor": "The current sensor of front driver board failed, you may need to replace the board.",
+  "vehicle_error_driver_board_rear_current_sensor": "The current sensor of rear driver board failed, you may need to replace the board.",
   "vehicle_error_bus_current_sensor": "Неисправен датчик тока шины, возможно, вам потребуется заменить контроллер.",
   "vehicle_error_imu_sensor": "Сбой датчика IMU, возможно, вам потребуется заменить контроллер.",
   "vehicle_error_mos_temp_sensor": "Сбой датчика температуры MOS, возможно, вам потребуется заменить контроллер.",
@@ -540,12 +542,24 @@ const Map<String, String> ru_RU = {
   "vehicle_error_voltage": "Ошибка напряжения.",
   "vehicle_error_driver_board": "Контроллер вышл из строя, возможно, вам потребуется заменить контроллер.",
   "vehicle_error_driver_board_oscillator": "Ошибка кварцевого генератора.",
+  "vehicle_error_scooter_front_driver_board_to_display_communication":
+  "The front driver board communication failed, you may need to check the cable connections or replace the front driver board.",
+  "vehicle_error_scooter_rear_driver_board_to_display_communication":
+  "The rear driver board communication failed, you may need to check the cable connections or replace the rear driver board.",
+  "vehicle_error_scooter_display_to_driver_board_communication":
+  "The display board communication failed, you may need to check the cable connections or replace the display board.",
 
   "vehicle_warning_over_current": "Предупреждение о перегрузке по току, пожалуйста, езжайте осторожно.",
   "vehicle_warning_over_temp": "Контроллер перегрелся, пожалуйста, прекратите движение на некоторое время.",
   "vehicle_warning_cpu_over_temp": "Процессор контроллера перегрелся, пожалуйста, прекратите движение на некоторое время.",
+  "vehicle_warning_front_driver_cpu_over_temp": "The CPU of front driver board is overheat, please stop riding for a while.",
+  "vehicle_warning_rear_driver_cpu_over_temp": "The CPU of rear driver board is overheat, please stop riding for a while.",
   "vehicle_warning_imu_over_temp": "IMU перегрелся, пожалуйста, остановитесь на некоторое время.",
   "vehicle_warning_mos_over_temp": "MOS перегрелся, пожалуйста, прекратите езду на некоторое время.",
+  "vehicle_warning_front_driver_hardware_over_temp": "Warning by front driver hardware over current, please stop riding for a while.",
+  "vehicle_warning_rear_driver_hardware_over_temp": "Warning by rear driver hardware over current, please stop riding for a while.",
+  "vehicle_warning_front_mos_over_temp": "Warning by front driver board MOS overheat, please stop riding for a while.",
+  "vehicle_warning_rear_mos_over_temp": "Warning by rear driver board MOS overheat, please stop riding for a while.",
 
   /// display board errors and warnings
   "vehicle_error_scooter_imu_sensor": "Сбой датчика IMU, возможно, вам потребуется заменить плату дисплея.",
@@ -569,8 +583,12 @@ const Map<String, String> ru_RU = {
   "vehicle_error_motor_temp_sensor": "Неисправен датчик температуры двигателя, возможно, потребуется заменить двигатель.",
   "vehicle_error_motor_phase": "Отсутствует фраза двигателя, возможно, вам потребуется заменить двигатель.",
   "vehicle_warning_motor_over_temp": "Предупреждение о перегреве двигателя, пожалуйста, остановитесь на некоторое время.",
+  "vehicle_warning_front_motor_over_temp": "Warning by overheat on front motor, please stop your riding for a while.",
+  "vehicle_warning_rear_motor_over_temp": "Warning by overheat on rear motor, please stop your riding for a while.",
   "vehicle_warning_motor_spin": "Предупреждение о вращении. Не поднимайте EUC, не нажав кнопку остановки вращения.",
   "vehicle_warning_motor_blocked": "Предупреждение о остановке двигателя, пожалуйста, не паркуйтесь на крутых склонах в течение длительного времени.",
+  "vehicle_warning_front_motor_blocked": "Warning by front motor stall, please do not park at a steep slopes for a long time.",
+  "vehicle_warning_rear_motor_blocked": "Warning by rear motor stall, please do not park at a steep slopes for a long time.",
 
   /// battery errors and warnings
   "title_vehicle_diagnosis_module_battery": "Батарея",

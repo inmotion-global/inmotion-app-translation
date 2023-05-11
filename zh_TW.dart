@@ -582,6 +582,8 @@ const Map<String, String> zh_TW = {
   /// 驅動板故障
   "title_vehicle_diagnosis_module_driver_board": "驅動板",
   "vehicle_error_parse_current_sensor": "相電流感測器故障，您可能需要更換驅動板。",
+  "vehicle_error_driver_board_front_current_sensor": "前驅動板電流取樣故障，你可能需要更換前驅動板。",
+  "vehicle_error_driver_board_rear_current_sensor": "後驅動板電流取樣故障，你可能需要更換前驅動板。",
   "vehicle_error_bus_current_sensor": "總電流感測器故障，您可能需要更換驅動板。",
   "vehicle_error_imu_sensor": "IMU感測器故障，您可能需要更換驅動板。",
   "vehicle_error_mos_temp_sensor": "MOS溫控故障，您可能需要更換驅動板。",
@@ -601,12 +603,22 @@ const Map<String, String> zh_TW = {
   "vehicle_error_voltage": "電壓錯誤",
   "vehicle_error_driver_board": "控制器錯誤",
   "vehicle_error_driver_board_oscillator": "晶振不起振",
+  "vehicle_error_scooter_front_driver_board_to_display_communication": "前驅動板通訊故障，請檢查連線線或更換前驅動板。",
+  "vehicle_error_scooter_rear_driver_board_to_display_communication": "前驅動板通訊故障，請檢查連線線或更換前驅動板。",
+  "vehicle_error_scooter_display_to_driver_board_communication": "中控顯示板通訊故障，請檢查連線線或更換中控顯示板。",
 
   "vehicle_warning_over_current": "過流警告，請溫柔騎行。", //車輛
   "vehicle_warning_over_temp": "驅動器溫度過高警告，請靜置休息片刻。",
   "vehicle_warning_cpu_over_temp": "CPU溫度過高警告，請靜置休息片刻。",
+  "vehicle_warning_front_driver_cpu_over_temp": "前驅動板CPU溫度過高警告，請靜置休息片刻。",
+  "vehicle_warning_rear_driver_cpu_over_temp": "後驅動板CPU溫度過高警告，請靜置休息片刻。",
   "vehicle_warning_imu_over_temp": "IMU溫度過高警告，請靜置休息片刻。",
   "vehicle_warning_mos_over_temp": "MOS溫度過高警告，請靜置休息片刻。",
+  "vehicle_warning_front_driver_hardware_over_temp": "前驅動板硬體過流保護觸發，請靜置休息片刻。",
+  "vehicle_warning_rear_driver_hardware_over_temp": "後驅動板硬體過流保護觸發，請靜置休息片刻。",
+
+  "vehicle_warning_front_mos_over_temp": "前驅動板MOS溫度過高警告，請靜置休息片刻。",
+  "vehicle_warning_rear_mos_over_temp": "後驅動板MOS溫度過高警告，請靜置休息片刻。",
 
   /// 顯示板故障（L9）
   "vehicle_error_scooter_imu_sensor": "IMU感測器故障，您可能需要更換顯示板。",
@@ -632,6 +644,10 @@ const Map<String, String> zh_TW = {
   "vehicle_warning_motor_over_temp": "電機溫度過高警告，請靜置休息片刻。",
   "vehicle_warning_motor_spin": "飛轉警告，請勿在車輛非靜止狀態下提起車輛。",
   "vehicle_warning_motor_blocked": "電機堵轉警告，請勿在陡坡上駐停過久。",
+  "vehicle_warning_front_motor_over_temp": "前電機溫度過高警告，請靜置休息片刻。",
+  "vehicle_warning_rear_motor_over_temp": "後電機溫度過高警告，請靜置休息片刻。",
+  "vehicle_warning_front_motor_blocked": "前電機堵轉警告，請勿在陡坡上駐停過久。",
+  "vehicle_warning_rear_motor_blocked": "後電機堵轉警告，請勿在陡坡上駐停過久。",
 
   /// 電池故障
   "title_vehicle_diagnosis_module_battery": "電池",

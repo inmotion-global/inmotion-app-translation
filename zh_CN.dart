@@ -582,6 +582,8 @@ const Map<String, String> zh_CN = {
   /// 驱动板故障
   "title_vehicle_diagnosis_module_driver_board": "驱动板",
   "vehicle_error_parse_current_sensor": "相电流传感器故障，您可能需要更换驱动板。",
+  "vehicle_error_driver_board_front_current_sensor": "前驱动板电流采样故障，你可能需要更换前驱动板。",
+  "vehicle_error_driver_board_rear_current_sensor": "后驱动板电流采样故障，你可能需要更换前驱动板。",
   "vehicle_error_bus_current_sensor": "总电流传感器故障，您可能需要更换驱动板。",
   "vehicle_error_imu_sensor": "IMU传感器故障，您可能需要更换驱动板。",
   "vehicle_error_mos_temp_sensor": "MOS温控故障，您可能需要更换驱动板。",
@@ -601,12 +603,22 @@ const Map<String, String> zh_CN = {
   "vehicle_error_voltage": "电压错误",
   "vehicle_error_driver_board": "控制器错误",
   "vehicle_error_driver_board_oscillator": "晶振不起振",
+  "vehicle_error_scooter_front_driver_board_to_display_communication": "前驱动板通讯故障，请检查连接线或更换前驱动板。",
+  "vehicle_error_scooter_rear_driver_board_to_display_communication": "前驱动板通讯故障，请检查连接线或更换前驱动板。",
+  "vehicle_error_scooter_display_to_driver_board_communication": "中控显示板通讯故障，请检查连接线或更换中控显示板。",
 
   "vehicle_warning_over_current": "过流警告，请温柔骑行。", //车辆
   "vehicle_warning_over_temp": "驱动器温度过高警告，请静置休息片刻。",
   "vehicle_warning_cpu_over_temp": "CPU温度过高警告，请静置休息片刻。",
+  "vehicle_warning_front_driver_cpu_over_temp": "前驱动板CPU温度过高警告，请静置休息片刻。",
+  "vehicle_warning_rear_driver_cpu_over_temp": "后驱动板CPU温度过高警告，请静置休息片刻。",
   "vehicle_warning_imu_over_temp": "IMU温度过高警告，请静置休息片刻。",
   "vehicle_warning_mos_over_temp": "MOS温度过高警告，请静置休息片刻。",
+  "vehicle_warning_front_driver_hardware_over_temp": "前驱动板硬件过流保护触发，请静置休息片刻。",
+  "vehicle_warning_rear_driver_hardware_over_temp": "后驱动板硬件过流保护触发，请静置休息片刻。",
+
+  "vehicle_warning_front_mos_over_temp": "前驱动板MOS温度过高警告，请静置休息片刻。",
+  "vehicle_warning_rear_mos_over_temp": "后驱动板MOS温度过高警告，请静置休息片刻。",
 
   /// 显示板故障（L9）
   "vehicle_error_scooter_imu_sensor": "IMU传感器故障，您可能需要更换显示板。",
@@ -629,9 +641,14 @@ const Map<String, String> zh_CN = {
   "vehicle_error_rear_motor_hall": "后电机霍尔故障，您可能需要更换电机。",
   "vehicle_error_motor_temp_sensor": "电机温控故障，您可能需要更换电机。",
   "vehicle_error_motor_phase": "电机缺相错误，您可能需要更换电机。",
+
   "vehicle_warning_motor_over_temp": "电机温度过高警告，请静置休息片刻。",
   "vehicle_warning_motor_spin": "飞转警告，请勿在车辆非静止状态下提起车辆。",
   "vehicle_warning_motor_blocked": "电机堵转警告，请勿在陡坡上驻停过久。",
+  "vehicle_warning_front_motor_over_temp": "前电机温度过高警告，请静置休息片刻。",
+  "vehicle_warning_rear_motor_over_temp": "后电机温度过高警告，请静置休息片刻。",
+  "vehicle_warning_front_motor_blocked": "前电机堵转警告，请勿在陡坡上驻停过久。",
+  "vehicle_warning_rear_motor_blocked": "后电机堵转警告，请勿在陡坡上驻停过久。",
 
   /// 电池故障
   "title_vehicle_diagnosis_module_battery": "电池",

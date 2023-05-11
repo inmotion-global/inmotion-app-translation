@@ -592,6 +592,8 @@ const Map<String, String> fr_FR = {
   /// 驱动板故障
   "title_vehicle_diagnosis_module_driver_board": "Carte conducteur",
   "vehicle_error_parse_current_sensor": "Le capteur de courant de phase a échoué, vous devrez peut-être remplacer la carte de commande.",
+  "vehicle_error_driver_board_front_current_sensor": "The current sensor of front driver board failed, you may need to replace the board.",
+  "vehicle_error_driver_board_rear_current_sensor": "The current sensor of rear driver board failed, you may need to replace the board.",
   "vehicle_error_bus_current_sensor": "Le capteur de courant de bus a échoué, vous devrez peut-être remplacer la carte de pilote.",
   "vehicle_error_imu_sensor": "Le capteur IMU a échoué, vous devrez peut-être remplacer la carte pilote.",
   "vehicle_error_mos_temp_sensor": "Le capteur de température MOS est tombé en panne, vous devrez peut-être remplacer la carte pilote.",
@@ -612,12 +614,24 @@ const Map<String, String> fr_FR = {
   "vehicle_error_voltage": "Erreur de tension.",
   "vehicle_error_driver_board": "La carte pilote a échoué, vous devrez peut-être remplacer la carte pilote.",
   "vehicle_error_driver_board_oscillator": "Erreur de l'oscillateur à cristal.",
+  "vehicle_error_scooter_front_driver_board_to_display_communication":
+  "The front driver board communication failed, you may need to check the cable connections or replace the front driver board.",
+  "vehicle_error_scooter_rear_driver_board_to_display_communication":
+  "The rear driver board communication failed, you may need to check the cable connections or replace the rear driver board.",
+  "vehicle_error_scooter_display_to_driver_board_communication":
+  "The display board communication failed, you may need to check the cable connections or replace the display board.",
 
   "vehicle_warning_over_current": "Attention par surintensité, veuillez rouler doucement.",
   "vehicle_warning_over_temp": "La carte conducteur est en surchauffe, veuillez arrêter de rouler pendant un moment.",
   "vehicle_warning_cpu_over_temp": "Le CPU de la carte pilote est en surchauffe, veuillez arrêter de rouler pendant un moment.",
+  "vehicle_warning_front_driver_cpu_over_temp": "The CPU of front driver board is overheat, please stop riding for a while.",
+  "vehicle_warning_rear_driver_cpu_over_temp": "The CPU of rear driver board is overheat, please stop riding for a while.",
   "vehicle_warning_imu_over_temp": "L'IMU surchauffe, veuillez arrêter de rouler pendant un moment.",
   "vehicle_warning_mos_over_temp": "Le MOS surchauffe, veuillez arrêter de rouler pendant un moment.",
+  "vehicle_warning_front_driver_hardware_over_temp": "Warning by front driver hardware over current, please stop riding for a while.",
+  "vehicle_warning_rear_driver_hardware_over_temp": "Warning by rear driver hardware over current, please stop riding for a while.",
+  "vehicle_warning_front_mos_over_temp": "Warning by front driver board MOS overheat, please stop riding for a while.",
+  "vehicle_warning_rear_mos_over_temp": "Warning by rear driver board MOS overheat, please stop riding for a while.",
 
   /// affiche les erreurs et les avertissements du tableau
   "vehicle_error_scooter_imu_sensor": "Le capteur IMU a échoué, vous devrez peut-être remplacer la carte d'affichage.",
@@ -641,8 +655,12 @@ const Map<String, String> fr_FR = {
   "vehicle_error_motor_temp_sensor": "Le capteur de température du moteur est tombé en panne, vous devrez peut-être remplacer le moteur.",
   "vehicle_error_motor_phase": "Motor Phrase-manque, vous devrez peut-être remplacer le moteur.",
   "vehicle_warning_motor_over_temp": "Attention par surchauffe du moteur, veuillez arrêter de rouler pendant un moment.",
+  "vehicle_warning_front_motor_over_temp": "Warning by overheat on front motor, please stop your riding for a while.",
+  "vehicle_warning_rear_motor_over_temp": "Warning by overheat on rear motor, please stop your riding for a while.",
   "vehicle_warning_motor_spin": "Avertissement de rotation. Ne soulevez pas l'EUC sans appuyer sur le bouton Spin-kill.",
   "vehicle_warning_motor_blocked": "Avertissement par décrochage du moteur, veuillez ne pas vous garer sur une pente raide pendant une longue période.",
+  "vehicle_warning_front_motor_blocked": "Warning by front motor stall, please do not park at a steep slopes for a long time.",
+  "vehicle_warning_rear_motor_blocked": "Warning by rear motor stall, please do not park at a steep slopes for a long time.",
 
   /// erreurs et avertissements de batterie
   "title_vehicle_diagnosis_module_battery": "Batterie",

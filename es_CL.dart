@@ -595,6 +595,8 @@ const Map<String, String> es_CL = {
   /// 驱动板故障
   "title_vehicle_diagnosis_module_driver_board": "Placa de Control",
   "vehicle_error_parse_current_sensor": "Falló el sensor de corriente de Fase. Es probable que deba reemplazar la Placa de Control.",
+  "vehicle_error_driver_board_front_current_sensor": "The current sensor of front driver board failed, you may need to replace the board.",
+  "vehicle_error_driver_board_rear_current_sensor": "The current sensor of rear driver board failed, you may need to replace the board.",
   "vehicle_error_bus_current_sensor": "Falló el sensor de corriente del Bus. Es probable que deba reemplazar la Placa de Control.",
   "vehicle_error_imu_sensor": "Falló el sensor de la IMU. Es probable que deba reemplazar la Placa de Control.",
   "vehicle_error_mos_temp_sensor": "Falló el sensor de temperatura de los MOS. Es probable que deba reemplazar la Placa de Control.",
@@ -615,12 +617,24 @@ const Map<String, String> es_CL = {
   "vehicle_error_voltage": "Error de voltaje.",
   "vehicle_error_driver_board": "Falló la Placa de Control. Es probable que deba reemplazar la Placa de Control.",
   "vehicle_error_driver_board_oscillator": "Error del Oscilador de Cristal.",
+  "vehicle_error_scooter_front_driver_board_to_display_communication":
+      "The front driver board communication failed, you may need to check the cable connections or replace the front driver board.",
+  "vehicle_error_scooter_rear_driver_board_to_display_communication":
+      "The rear driver board communication failed, you may need to check the cable connections or replace the rear driver board.",
+  "vehicle_error_scooter_display_to_driver_board_communication":
+      "The display board communication failed, you may need to check the cable connections or replace the display board.",
 
   "vehicle_warning_over_current": "Advertencia de sobrecarga. Favor conducir con gentileza.",
   "vehicle_warning_over_temp": "La Placa de Control se ha sobrecalentado. Favor detenerse por un instante.",
   "vehicle_warning_cpu_over_temp": "El procesador central de la Placa de Control está sobrecalentado. Favor detenerse por un instante.",
+  "vehicle_warning_front_driver_cpu_over_temp": "The CPU of front driver board is overheat, please stop riding for a while.",
+  "vehicle_warning_rear_driver_cpu_over_temp": "The CPU of rear driver board is overheat, please stop riding for a while.",
   "vehicle_warning_imu_over_temp": "La IMU está sobrecalentada. Favor detenerse por un instante.",
   "vehicle_warning_mos_over_temp": "Los MOS están sobrecalentados. Favor detenerse por un instante.",
+  "vehicle_warning_front_driver_hardware_over_temp": "Warning by front driver hardware over current, please stop riding for a while.",
+  "vehicle_warning_rear_driver_hardware_over_temp": "Warning by rear driver hardware over current, please stop riding for a while.",
+  "vehicle_warning_front_mos_over_temp": "Warning by front driver board MOS overheat, please stop riding for a while.",
+  "vehicle_warning_rear_mos_over_temp": "Warning by rear driver board MOS overheat, please stop riding for a while.",
 
   /// display board errors and warnings
   "vehicle_error_scooter_imu_sensor": "El sensor IMU falló. Es probable que deba reemplazar la placa de pantalla.",
@@ -644,9 +658,13 @@ const Map<String, String> es_CL = {
   "vehicle_error_motor_temp_sensor": "El sensor térmico del motor ha fallado. Es probable que deba reemplazar el motor.",
   "vehicle_error_motor_phase": "Fase de motor faltante. Es probable que deba reemplazar el motor.",
   "vehicle_warning_motor_over_temp": "Advertencia por motor sobrecalentado. Favor detenerse por un instante.",
+  "vehicle_warning_front_motor_over_temp": "Warning by overheat on front motor, please stop your riding for a while.",
+  "vehicle_warning_rear_motor_over_temp": "Warning by overheat on rear motor, please stop your riding for a while.",
   "vehicle_warning_motor_spin": "Advertencia, no levante el vehículo encendido, sin presionar el botón Corta-Motor.",
   "vehicle_warning_motor_blocked":
       "Advertencia de motor frenado. Favor no detenerse en pendientes extremas por mucho tiempo y revise cuerpos extraños que puedan estar trancando el motor.",
+  "vehicle_warning_front_motor_blocked": "Warning by front motor stall, please do not park at a steep slopes for a long time.",
+  "vehicle_warning_rear_motor_blocked": "Warning by rear motor stall, please do not park at a steep slopes for a long time.",
 
   /// battery errors and warnings
   "title_vehicle_diagnosis_module_battery": "Batería",
